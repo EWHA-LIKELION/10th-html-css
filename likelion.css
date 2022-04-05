@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap')
+
+* {
+    font-family: 'Montserrat';
+}
+
+/*@import url('폰트링크');
+
+* {
+    font-family: '폰트이름';
+}*/
+
+footer {
+    text-align: center; /*텍스트 정렬*/
+    background-color: #1e1e1e;
+    color: #919191;
+    font: 12px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.small-font {
+    font-size: 15px;
+}
+
+.mainbox {
+    border: 1px solid black;
+    width: auto; /*상자 폭*/
+    margin-left: auto;
+    margin-right: auto;
+    /*div 가운데 정렬 하는 방법*/
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    /*box-shadow 박스 그림자 x축그림자 y축그림자(두가지는 음, 양) 그림자흐림(블러)정도 퍼짐도 그림자색(0~255, 투명도0~1)*/
+}
