@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "IM_Hyemin-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "IM_Hyemin-Bold";
+}
+body {
+  background-color: #ecf6ff;
+}
+body,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+#sub-title {
+  color: #003667;
+  border: 2px solid #81a1bd;
+  border-width: 4px;
+  padding: 10px;
+  border-right-width: 3cm;
+  margin-top: 3%;
+  background-color: #f3f6f4;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.favorite,
+.dislike {
+  color: #848484;
+}
+#about-me {
+  color: black;
+}
+.name {
+  font-weight: bolder;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+.namebox {
+  border: 5px solid #bcbcbc;
+  margin-bottom: 3%;
+  background-color: #f3f6f4;
+}
+.group {
+  font-size: 19px;
+  color: #282828;
+  font-weight: 800;
+  text-align: right;
+  margin-right: 3%;
+}
+.part {
+  font-size: 17px;
+  color: #7c7c7c;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 3%;
+}
+
+.mainbox {
+  width: 800px;
+  padding: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.6);
+  background-color: #d0dfed;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+  font-size: 12px;
+  color: #919191;
+}
