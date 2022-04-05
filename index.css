@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'YUniverse-B';
+}
+
+body, h1,h2{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    color: orange;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+.hhh{
+    font-size: 12px;
+    color: gray;
+    font-style: italic;
+}
+
+.name-text {
+    font-size:16px;
+    color:orange;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size:13px;
+    line-height: 16px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title-box {
+    text-align: right;
+}
+
+section {
+    margin-bottom:24px;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.title-text {
+    font-size:13px;
+    font-weight: 1000;
+    color: #282828;
+    float: left;
+}
+
+.year-text{
+    font-size:13px;
+    font-weight: 1000;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 11px;
+}
+
+.desc-subtext {
+    font-size: 11px;
+    color:#282828;
+    padding-left:16px;
+}
+
+.cat-img{
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+}
+
+.mbti-text{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.cat-text{
+    font-size: 13px;
+}
