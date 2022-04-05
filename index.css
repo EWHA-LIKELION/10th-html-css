@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'beanpoleotM00';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/beanpoleotM00.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'beanpoleotM00';
+}
+
+#pro {
+  color: red;
+  position: relative;
+  bottom: 100px;
+  left: 20px;
+  z-index: 10;
+}
+
+#kon {
+  font-size: larger;
+  position: relative;
+  font-weight: 600;
+  color: blue;
+}
+#son {
+  font-size: small;
+  position: relative;
+  color: green;
+}
+
+#let {
+  color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+div {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: white;
+}
