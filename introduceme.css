@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ 
+    font-family: 'S-CoreDream-3Light';
+}
+
+
+body,h1,h2 {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+section{
+    margin-bottom: 24px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px double #ffbb00;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.titlebox{
+    text-align: right;
+}
+
+.intro{
+    font-size: 16px;
+    color: #ff9E1B;
+    font-weight: bold;
+}
+.subintro{
+    font-size: 13px;
+    color: #530000;
+    font-weight: lighter;
+}
+.newtitle-text{
+    float: left;
+    font-size: 30;
+}
+.subtitle-text{
+    float: right;
+}
+.about-me-text{
+    font-size: 5px;
+    line-height: 16px;
+    font-weight: lighter;
+}
+.zeroone{
+    color:#000000;
+    font-weight: bold;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+.firstone{
+    color:#1d7a32;
+    font-weight: bold;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+.secondone{
+    color:#1596ff;
+    font-weight: bold;
+    border-bottom: 1px solid #969696;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+.title-text{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000e8b;
+    float: left;
+}
+
+.year-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.float-wrap{
+    overflow: hidden;
+}
+
+.desc-text{
+    font-size: 10px;
+}
+
+.desc-subtext{
+    font-size: 10px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.sns-img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.divide{
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-color: #505050;
+    padding: 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
